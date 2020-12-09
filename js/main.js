@@ -1,3 +1,28 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar !</b>";
+    //console.log(document.getElementById("agradecimento"));
+}
+function redirecionar(){
+    window.open("https://www.youtube.com/");
+   // window.location .href = "https://www.youtube.com/";
+}
+
+function passemouse(elemento){
+    //document.getElementById("mouse").innerHTML="Lasque-se";
+    elemento.innerHTML = "Lasque-se";
+    //alert("Trocar texto");
+}
+function voltar(elemento){
+    //document.getElementById("mouse").innerHTML="Passe o Mouse aqui !";
+    elemento.innerHTML = "Passe o Mouse aqui !";
+    //alert("Trocar texto");
+}
+function carregar(){
+    alert("Página carregada !!");
+}
+function change(elemento){
+console.log(elemento.value)
+}
 // var d = new Date;
 // alert(d);
 // alert(d.getDay);
